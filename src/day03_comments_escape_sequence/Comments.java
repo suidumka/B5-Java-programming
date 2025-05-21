@@ -47,7 +47,7 @@ public class Comments {
 
         //------------------------------------------------------------------------
 
-        // To see your own TODO: list
+        // To see your own TODO list
 
         //This lane is for To Do list among your own comments.
         //Click "More tool window '...' "" and find TODO: tool
