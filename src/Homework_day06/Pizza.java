@@ -3,11 +3,24 @@ package Homework_day06;
 public class Pizza {
     public static void main(String[] args) {
 
-        String pizza = "Cheese pizza";
-        byte pizza_slices = 8;
-        byte people = 4;
-        int slices_per_person = pizza_slices / people;
-        System.out.println("\nWe ordered " + pizza + " with " + pizza_slices  + " slices" +
-                ", " + people + " people ate " + slices_per_person + " slices each.");
+        String typeOfPizza = "Cheese";
+        int numOfSlices = 21;
+        int numOfPeople = 7;
+
+        // calculate how many full slices each person will get
+        // 20 / 6 = 3
+        int fullSliceForEachPerson = numOfSlices / numOfPeople;
+
+
+        //Calculate how many slices are left over
+        // 20 - ( 6 * 3) = 20 - 18 = 2
+        int leftOverSlices1 = numOfSlices - (numOfPeople * fullSliceForEachPerson);
+
+        // 20 % 6 = 2
+        int leftOverSlices2 = numOfSlices % numOfPeople;
+
+        String result = "We bought " + typeOfPizza + " pizza. It has " + numOfSlices + " slices and we are " + numOfPeople + " people. Each of us will get " + fullSliceForEachPerson + " full slices and there will be " + leftOverSlices2 + " slices left over.";
+
+        System.out.println(result);
     }
 }
