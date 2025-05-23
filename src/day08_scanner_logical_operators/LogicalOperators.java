@@ -45,5 +45,17 @@ public class LogicalOperators {
         //                 false || false --- > false
 
         System.out.println();
+
+        System.out.println("------------------------------------");
+
+        // ! - this is a NOT OPERATOR
+
+        System.out.println(true);
+        System.out.println(!true); // not true = false
+        System.out.println(false);
+        System.out.println(!false); // not false = true
+
+        System.out.println(6 != 6);
+        System.out.println(!(6 != 6));  // !(false) -- > true
     }
 }
