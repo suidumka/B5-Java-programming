@@ -48,7 +48,7 @@ public class LogicalOperators {
 
         System.out.println("------------------------------------");
 
-        // ! - this is a NOT OPERATOR
+        // ! - this is a NOT an OPERATOR
 
         System.out.println(true);
         System.out.println(!true); // not true = false
