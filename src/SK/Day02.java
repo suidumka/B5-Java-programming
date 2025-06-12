@@ -1,4 +1,4 @@
-package SoftSkill_classes;
+package SK;
 
 import java.util.Scanner;
 
