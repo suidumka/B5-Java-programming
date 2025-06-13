@@ -1,4 +1,4 @@
-package day16_loops;
+package day16_practice_string_methods;
 /*
     [SMS parts]
     Given a String in the following format:
