@@ -16,7 +16,7 @@ public class Factorial {
 
         while ( num >= 1 ) {
             result = result * num;  // result = 1 * 4   | result = 4 * 3    | result = 12 * 2 | result = 24 * 1
-            num--;  //                 num = 3          | num = 2           | num = 1         | num = 0
+            num--;               //    num = 3          | num = 2           | num = 1         | num = 0
         }
 
         System.out.println(result);

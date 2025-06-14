@@ -51,4 +51,3 @@ public class test {
 // #15 - "".substring(); --- > take the portion of the string and returns string
 
 // TODO: check if last 2 characters are same or not? -- > loop
-
